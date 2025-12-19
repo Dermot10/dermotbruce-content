@@ -20,4 +20,7 @@ takeaways: "Hands-on experience architecting and delivering production data pipe
 Reinforced a delivery-focused approach to backend engineering, balancing maintainability, scalability, and real-world business requirements."
 ---
 
-This project focused on building a robust ingestion layer rather than a one-off migration. Emphasis was placed on correctness, throughput, and extensibility to support long-term analytics needs as data volume and source complexity grew.
+High-level Breakdown:
+
+This project focused on building a robust ingestion layer rather than a one-off migration. 
+Emphasis was placed on correctness, throughput, and extensibility to support long-term analytics needs as data volume and source complexity grew.
