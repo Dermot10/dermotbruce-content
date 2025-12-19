@@ -1,5 +1,5 @@
 ---
-title: Reverse Proxy Safeguarding Platform
+title: Reverse Proxy Safeguarding
 slug: reverse-proxy-poc
 shortDescription: "Reverse proxy platform to safeguard employees interacting with third-party live streaming services"
 tech: ["Python", "AWSx", "HTTP", "Cloud Infrastructure"]
@@ -20,3 +20,13 @@ Established a reusable security pattern for exerting control over external platf
 takeaways: "Strengthened experience designing security platforms that balance safety, performance, and organisational boundaries. 
 Reinforced a senior-level approach to system design: introducing control and observability at architectural choke points rather than through fragile downstream mitigations."
 ---
+
+High-level breakdown:
+
+Employee traffic routed through a reverse proxy positioned in front of third-party live streaming platforms.
+Incoming HTTP requests inspected and enriched with security metadata (IP, headers, behavioural indicators).
+Security telemetry streamed to downstream analysis systems for investigation and correlation.
+Enforcement logic applied to block or throttle malicious actors (e.g. repeat offenders, explicit behaviour sources).
+Architecture designed to be transparent to upstream services, preserving business operations while introducing security control.
+Proxy acted as a reusable trust boundary for subsidiary-operated platforms.
+
