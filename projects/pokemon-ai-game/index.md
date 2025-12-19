@@ -5,10 +5,8 @@ shortDescription: "Pokédex powered by AI and automated with Python and Tines."
 tech: ["Python", "Tines", "OpenAI Vision", "OpenAI Text Gen", "AWS",  "Machine Learning"]
 topics: ["AI", "Automation", "ML"]
 screenshots:
-  - "./media/screenshot-1.png"
-  - "./media/screenshot-2.png"
-  - "./media/diagram.png"
-  - 
+  - "ai_ml_pokedex_game-storyboard.png"
+
 problem: "Demonstrate AI capabilities in automation to third-party through an engaging, gamified example"
 
 solution: "Built a Pokédex where users submit Pokémon images, analyzed via OpenAI Vision, and dynamically generate Pokédex entries using Text Gen.
