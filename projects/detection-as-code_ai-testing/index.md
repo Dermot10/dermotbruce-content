@@ -20,3 +20,14 @@ Demonstrated practical application of AI engineering techniques in production sy
 takeaways: "Hands-on experience designing AI-assisted systems where determinism, safety, and integration matter more than generative creativity. 
 Reinforced the importance of prompt design, output validation, and guardrails when incorporating AI into critical software pipelines."
 ---
+
+
+High-level breakdown:
+
+Detection requirements authored and tracked as Jira issues rather than ad-hoc SIEM configuration.
+Automation extracts structured detection data from Jira tickets.
+Detection definitions transformed into standardised YAML schemas.
+YAML artifacts committed to GitHub for version control, review, and traceability.
+CI pipelines validate schema correctness and deployment readiness.
+Approved detections deployed into Splunk via automated workflows.
+Platform decouples detection lifecycle management from the SIEM UI, enabling scalable collaboration.
