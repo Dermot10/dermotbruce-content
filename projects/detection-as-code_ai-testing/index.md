@@ -25,9 +25,15 @@ Reinforced the importance of prompt design, output validation, and guardrails wh
 High-level breakdown:
 
 Detection requirements authored and tracked as Jira issues rather than ad-hoc SIEM configuration.
+
 Automation extracts structured detection data from Jira tickets.
+
 Detection definitions transformed into standardised YAML schemas.
+
 YAML artifacts committed to GitHub for version control, review, and traceability.
+
 CI pipelines validate schema correctness and deployment readiness.
+
 Approved detections deployed into Splunk via automated workflows.
+
 Platform decouples detection lifecycle management from the SIEM UI, enabling scalable collaboration.
