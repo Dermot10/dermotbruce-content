@@ -21,19 +21,16 @@ takeaways: "Hands-on experience designing AI-assisted systems where determinism,
 Reinforced the importance of prompt design, output validation, and guardrails when incorporating AI into critical software pipelines."
 ---
 
-
 High-level breakdown:
 
-Detection requirements authored and tracked as Jira issues rather than ad-hoc SIEM configuration.
+Detection YAML used as the source of truth for test generation.
 
-Automation extracts structured detection data from Jira tickets.
+AI models prompted with strict, deterministic instructions to generate structured test cases.
 
-Detection definitions transformed into standardised YAML schemas.
+Generated tests validated for format and consistency before execution.
 
-YAML artifacts committed to GitHub for version control, review, and traceability.
+Tests executed automatically within CI pipelines against detection logic.
 
-CI pipelines validate schema correctness and deployment readiness.
+Failures block promotion of detections, preventing regressions.
 
-Approved detections deployed into Splunk via automated workflows.
-
-Platform decouples detection lifecycle management from the SIEM UI, enabling scalable collaboration.
+Prompt engineering and guardrails ensure repeatable, non-creative output suitable for automation.
