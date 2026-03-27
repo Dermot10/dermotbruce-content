@@ -1,7 +1,7 @@
 ---
-title: AI Pokedex Game
-slug: pokemon-ai-game
-shortDescription: "Pokédex powered by AI and automated with Python and Tines."
+title: AI Recommendation Engine
+slug: Ai-recommendation-engine
+shortDescription: "Pokédex game powered by AI recommendation model and automated with Python and Tines."
 tech: ["Python", "Tines", "OpenAI Vision", "OpenAI Text Gen", "AWS",  "Machine Learning"]
 topics: ["AI", "Automation", "ML"]
 screenshots:
@@ -9,7 +9,7 @@ screenshots:
 
 problem: "Demonstrate AI capabilities in automation to third-party through an engaging, gamified example"
 
-solution: "Built a Pokédex where users submit Pokémon images, analyzed via OpenAI Vision, and dynamically generate Pokédex entries using Text Gen.
+solution: "Built a recommendation model which powers a small Pokédex game in which the users submit Pokémon images, analyzed via OpenAI Vision, and dynamically generate Pokédex entries using Text Gen.
 Tines orchestrates automation, and a custom ML model recommends Pokémon to catch based on typing and strength."
 
 impact: "Award-winning finish. Strengthened AI engineering skills, exposed to model training, automated workflows, and API integrations.
